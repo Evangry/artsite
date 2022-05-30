@@ -1,0 +1,6 @@
+I want the site to have a main page with a brief bio of about 500 words and one bigger picture. links to projects on the left side. each project is a few pictures
+that i want to be in two columns with the Title, Size and Year beneath it. 
+
+I want there to be a bar at the top accesable from all pages. IN the top left in bigger font it says Henry Geary which functions as a homelink
+and on the right i want there to be a link to a contact page, which has my instagram linkedin and email, and then a resume/cv page 
+that links to a resume page (maybe a pdf or a google doc?)
