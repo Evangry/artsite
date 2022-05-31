@@ -1,16 +1,3 @@
-<!doctype html>
-
-<html>
-  <head>
-
-    <title>Henry Geary Art</title>
-  </head>
-  <body>
-  	<h1>Henry Geary Art</h1>
-    <p id='testDisplay'>this is a smite night.</p>
-    <img src='pieces/blue dude.JPG' alt="image" width="500" height="500">
-    
-    <p id="fileContents" hidden='true'>
 Project: Shapes
 
 lawn sitting, 18 x 18, 2021
@@ -48,7 +35,3 @@ nicky one, 18 x 18, 2021
 nicky two, 18 x 18, 2021
 
 strawberry skull, 18 x 18, 2021
-</p>
-    <script src='./pieces-reader.js'></script>
-  </body>
-</html>
