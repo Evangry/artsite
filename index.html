@@ -2,14 +2,30 @@
 
 <html>
   <head>
-
+  	<link rel="stylesheet" href="artsite.css">
     <title>Henry Geary Art</title>
   </head>
   <body>
-  	<h1>Henry Geary Art</h1>
-    <img src='pieces/blue dude.JPG' alt="image" width="500" height="500">
-    <div id='work-display'></div>
-<p id="file-contents" hidden='true'>
+    <div class="topnav">
+      <a href="index.html">Art</a>
+      <a href="contact.html">Contact</a>
+      <a href="Evan Geary Resume.pdf" target="_blank">Resume</a>
+    </div>
+    <div class="header"><h1>Henry Geary Art</h1></div>
+    <img src='pieces/blue dude.JPG' alt="image" width=500 height=auto>
+    <div id='bio-display'></div>
+    <div id='pieces-display'></div>
+<p id='bio-content' hidden='true'>
+Henry Geary is an emerging conceptual artist and painter from Seattle Washington bringing a disruptive lens to examine the overlap of science, technology and arts. 
+
+Growing up in Seattle, Henry emerged from a math minded upbringing and found joy and a sense of curiosity in the artistic pursuits. He left behind fruitful opportunities of pursuing a degree in applied physics for a fine arts degree at Seattle University. 
+In Seattle he found his legs working at the Traver Gallery, one of the leading institutions in the sale of glass sculpture. This work on the other side of the artistic market spawned his interest in examining the monetary aspect of artistic creation and exploring how art can interact with the financial sector. In his program he developed a mind for creating sardonic paintings and performance pieces to criticize the ego-centric nature of the academic and intellectual community. 
+
+While he is still young he has found an opportunity to create commissioned work for the Jesuit Seminary in the Vatican. Working under the catholic church Henry has assisted in the development of new non traditional printmaking techniques and will be shown in the Roman Gregorian University in June of 2022. 
+
+Going forward Henry is one to watch in the world of conceptual art. His creative mind and fervor to push the boundaries of what it means to be an artist are unique.
+</p>
+<p id="pieces-content" hidden='true'>
 
 Project: Shapes
 
@@ -35,6 +51,7 @@ nicky one, 18 x 18, 2021
 nicky two, 18 x 18, 2021
 strawberry skull, 18 x 18, 2021
 </p>
+    <script src='./bio-reader.js'></script>
     <script src='./pieces-reader.js'></script>
   </body>
 </html>
