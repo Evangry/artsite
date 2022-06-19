@@ -13,7 +13,7 @@ projects.forEach((content, index, array) => {
 	pieces.forEach((content, index, array) => {
 		let pieceData = content.split(', ');
 		piecesHtml += `<div id="${pieceData[0]}" style="display: inline-block; margin: 25px">`
-		piecesHtml += `<img src='pieces/${pieceData[0]}.png' alt="image" width=500 height=auto>`
+		piecesHtml += `<img src='pieces/${pieceData[0]}.png' alt="image" width=600 height=auto>`
 		piecesHtml += `<div style="margin-top: 0px;"><h4 style="margin-bottom: 5px; margin-top: 0px">${pieceData[0]}</h4>${pieceData[1]}, ${pieceData[2]}</div>`
 		piecesHtml += `</div>`
 	})
