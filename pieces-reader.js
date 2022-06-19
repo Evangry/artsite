@@ -6,8 +6,9 @@ const projects = piecesContent.split('\nProject: ').slice(1);
 projects.forEach((content, index, array) => {
 	let lines = content.split('\n');
 	let projectTitle = lines[0];
-	piecesHtml += `<span id="${projectTitle}"></span><div><h3 style="margin-bottom: 5px; margin-top: 45px;">${projectTitle}</h3>`;
-	navbarHtml += `<li style="display: inline-block; padding: 0 0.5rem;"><a href=#${projectTitle}>${projectTitle}</a></li>`
+	let projectTitleCode = projectTitle.replace(/\s/g, '');
+	piecesHtml += `<span id="${projectTitleCode}"></span><div><h3 style="margin-bottom: 5px; margin-top: 45px;">${projectTitle}</h3>`;
+	navbarHtml += `<li style="display: inline-block; padding: 0 0.5rem;"><a href=#${projectTitleCode}>${projectTitle}</a></li>`
 	let pieces = lines.slice(2, -1);
 	pieces.forEach((content, index, array) => {
 		let pieceData = content.split(', ');
